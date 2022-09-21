@@ -26,7 +26,7 @@ select distinct nationality from players  order by nationality;
 select avg(wage) from players where name not in ("L.Messi");
 select * from players order by wage  desc;
 show tables;
-create table playerdetails(ID int primary key ,Wifetype text,Race text );
+create table playerdetails(ID int primary key ,Family text,Race text );
 show tables;
 select * from playerdetails;
 insert into playerdetails values(158023,Blonde,Black);
